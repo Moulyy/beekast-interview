@@ -25,10 +25,15 @@ Ce repository ne contient ni frontend, ni backend pour le moment. Seulement du c
 Le projet utilise **Gherkin** pour écrire des tests comportementaux. Gherkin est un langage de plain text qui permet de définir des scénarios de tests de manière claire et compréhensible par tous les membres de l'équipe, y compris les non-développeurs.
 Le code teste reelement les scenarios tels qu'ils sont ecrits dans les user Stories
 
-## Lancer les tests
+## Commandes
 
+### Installation des dependances
+```
+pnpm install
+```
+
+### Lancer les tests
 A la racine du projet 
-
 ```
 pnpm test
 ```
