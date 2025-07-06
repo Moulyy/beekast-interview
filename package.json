@@ -1,0 +1,25 @@
+{
+    "name": "@crenauto/root",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "vitest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.9.0",
+        "eslint": "^9.9.0",
+        "globals": "^15.9.0",
+        "@types/node": "^22.0.0",
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.47",
+        "prettier": "^3.3.2",
+        "typescript": "^5.5.3",
+        "vite": "^5.3.5",
+        "vite-tsconfig-paths": "^4.3.2",
+        "vitest": "^2.0.4"
+    },
+    "packageManager": "pnpm@8.10.2+sha1.e0b68270e89c817ff88b7be62466a2128c53af02"
+}

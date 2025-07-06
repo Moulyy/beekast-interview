@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "composite": false,
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+
+    "baseUrl": ".",
+    "moduleResolution": "Bundler",
+    "target": "es2022",
+    "module": "ESNext",
+    "lib": ["ESNext", "dom"],
+    "jsx": "preserve",
+    "customConditions": ["@crenauto/source"],
+
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "rootDir": ".",
+    "paths": {
+      "@crenauto/domain": ["libs/domain/src/index.ts"],
+      "@crenauto/error": ["libs/error/src/index.ts"],
+      "@crenauto/application": ["libs/application/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
